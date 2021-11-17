@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]){
     int rc = fork();
-    char* message = "THC";
+    char* message = "Hey";
     int fds[2];
     if (pipe(fds) < 0)
         exit(1);
